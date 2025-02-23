@@ -82,7 +82,7 @@ Here are a few examples:
 - A fully designed **"Create User" page**.
 - A **loading animation or transition** when navigating between pages.
 - A **theme switcher** (light/dark mode).
-- Any **unique UI enhancement** that improves the user experience.
+- Any **unique UI enhancement** that improves the user experience. The more creative the better!
 
 ---
 
