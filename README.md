@@ -1,50 +1,94 @@
-# React + TypeScript + Vite
+# Frontend Developer Take-Home Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to our frontend developer take-home assignment! This challenge is designed to assess your creativity, technical skills, and ability to build a simple yet well-structured UI using **React, TypeScript, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🚀 Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **1. Prerequisites**
 
-## Expanding the ESLint configuration
+Ensure you have the following installed on your system:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Node.js** (v16+ recommended)
+- **npm** or **yarn**
 
-- Configure the top-level `parserOptions` property like this:
+### **2. Clone the Repository**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```sh
+git clone https://github.com/novalyze/novalyze-takehome
+cd frontend-assignment
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### **3. Install Dependencies**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Using npm:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+npm install
 ```
+
+### **4. Start Development Server**
+
+```sh
+npm run dev
+```
+
+---
+
+## 📩 Submission Instructions
+
+1. **Create a new branch** using your full name:
+
+```sh
+git checkout -b your-name
+```
+
+2. **Commit your changes and push the branch**:
+
+```sh
+git add .
+git commit -m "Completed take-home assignment"
+git push origin your-name
+```
+
+---
+
+## 📌 Assignment Overview
+
+You will build a **two-page frontend application** with a simple UI using React, TypeScript, and Tailwind CSS. The application does not need to connect to an API, but it must be **functional with dummy data**.
+
+### ✨ Requirements
+
+You need to implement the following pages:
+
+#### **1. Login Page**
+
+- Accepts **email and password** for login.
+- Provides options for **SSO login** (UI only).
+- Includes options to **change password** and **create a new user** (the “create a new user” button should redirect to a new page, which can be empty).
+
+#### **2. Home Page**
+
+- **Left section** (smaller area)
+  - Displays a **simple chatbot UI** (like ChatGPT-style chat).
+  - It **does not need to be functional**, but should contain **dummy messages**.
+- **Right section** (larger area)
+  - Displays an **embedded PDF file** within the UI.
+
+#### **3. Additional UI Component (Your Choice)**
+
+To showcase your **technical skill and creativity**, create at least **one UI element of your choice**.  
+Here are a few examples:
+
+- A fully designed **"Create User" page**.
+- A **loading animation or transition** when navigating between pages.
+- A **theme switcher** (light/dark mode).
+- Any **unique UI enhancement** that improves the user experience.
+
+---
+
+## ⏳ Deadline & Incentive
+
+- You must complete the assignment **within 48 hours** of receiving it to be considered for the next interview round.
+- If completed **within 24 hours**, you will receive a **₹5000 incentive**.
+
+---
