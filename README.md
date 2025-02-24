@@ -50,6 +50,9 @@ git commit -m "Completed take-home assignment"
 git push origin your-name
 ```
 
+3. **Send me an email to confirm your submission** as well as any comments about the code you've written and changes youve made at
+   `samin@novalyze.ai`
+
 ---
 
 ## 📌 Assignment Overview
