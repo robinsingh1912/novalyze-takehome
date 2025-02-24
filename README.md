@@ -72,7 +72,7 @@ You need to implement the following pages:
   - Displays a **simple chatbot UI** (like ChatGPT-style chat).
   - It **does not need to be functional**, but should contain **dummy messages**.
 - **Right section** (larger area)
-  - Displays an **embedded PDF file** within the UI.
+  - Simply displays an **embedded PDF file** within the UI. You can find an example pdf in `src/resources/sample.pdf`. Its your job to figure out whats the best way to embed it.
 
 #### **3. Additional UI Component (Your Choice)**
 
