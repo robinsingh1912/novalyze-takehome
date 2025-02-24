@@ -32,6 +32,10 @@ npm install
 npm run dev
 ```
 
+### **5. Access The Development Server**
+
+Now you can access the development server at `http://localhost:5173/`
+
 ---
 
 ## 📩 Submission Instructions
@@ -58,6 +62,8 @@ git push origin your-name
 ## 📌 Assignment Overview
 
 You will build a **two-page frontend application** with a simple UI using React, TypeScript, and Tailwind CSS. The application does not need to connect to an API, but it must be **functional with dummy data**.
+
+**Keep in mind the pages have very simple UI elements; feel free to improve the deisgn language and introduce any new elements you like**
 
 ### ✨ Requirements
 
