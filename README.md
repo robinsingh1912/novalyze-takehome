@@ -15,7 +15,7 @@ Ensure you have the following installed on your system:
 
 ```sh
 git clone https://github.com/novalyze/novalyze-takehome
-cd frontend-assignment
+cd novalyze-takehome
 ```
 
 ### **3. Install Dependencies**
