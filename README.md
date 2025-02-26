@@ -115,6 +115,5 @@ Here are a few examples:
 ## ⏳ Deadline & Incentive
 
 - You must complete the assignment **within 48 hours** of receiving it to be considered for the next interview round.
-- If completed **within 24 hours**, you will receive a **₹5000 incentive**.
 
 ---
