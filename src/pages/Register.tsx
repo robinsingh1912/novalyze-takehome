@@ -1,30 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { AppleIcon, GithubIcon } from '../components/Icons';
-import SignInForm from '../components/SignInForm';
+import RegisterForm from '../components/RegisterForm';
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <>
-      <div className='flex h-full w-full items-center justify-center p-2 text-black'>
+      <div className='flex h-full w-full items-center justify-center text-black p-2'>
         <div className='w-full max-w-lg space-y-8 bg-white rounded-xl shadow-lg p-10'>
           <div className='text-center'>
             <h1 className='text-3xl font-bold tracking-tight text-gray-900'>
-              Sign in to your account
+              Let's get started
             </h1>
             <p className='mt-2 text-sm text-gray-600'>
-              Or{' '}
+              already have an account{' '}
               <Link
-                to='/register'
+                to='/login'
                 className='font-medium text-primary hover:text-primary/90'
               >
-                create a new account
+                Login
               </Link>
             </p>
           </div>
 
           <div className='mt-8 space-y-6'>
-            <SignInForm />
+            <RegisterForm />
             <div className='relative'>
               <div className='absolute inset-0 flex items-center'>
                 <br className='w-full' />
@@ -34,7 +34,7 @@ const Login: React.FC = () => {
               </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-3 text-center '>
+            <div className='grid grid-cols-2 gap-3 text-center'>
               <a
                 className='w-full inline-flex items-center justify-center outline-1 outline-black/10 p-2 rounded'
                 href='#google'
@@ -57,4 +57,4 @@ const Login: React.FC = () => {
   );
 };
 
-export default Login;
+export default Register;
