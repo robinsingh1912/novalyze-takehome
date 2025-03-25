@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --color-primary: #7b42b3;
@@ -6,4 +8,8 @@
   --color-complimentary: #506cff;
   --color-gray-background-light: #f7fafc;
   --color-gray-background-dark: #2d3748;
+}
+
+body * {
+  @apply transition-colors duration-100;
 }
